@@ -1,9 +1,12 @@
 {
-  "name": "react-component-library",
+  "name": "@dan-jackson/react-component-library",
   "version": "0.0.4",
   "description": "React Component Library",
   "main": "dist/bundle.js",
   "module": "dist/bundle.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "import": "./dist/bundle.esm.js",
