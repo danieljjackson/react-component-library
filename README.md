@@ -1,5 +1,11 @@
 # React Component Library
 
+## Install
+
+```shell
+$ npm install @dan-jackson/react-component-library
+```
+
 ## Create Tarball file
 
 ```shell
