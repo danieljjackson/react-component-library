@@ -1,8 +1,8 @@
 import React from "react"
 
-const Link = () => {
+const Link = ({ to, openAsTab = false, children, ...others }) => {
     return (
-        <div>Link</div>
+        <a href={to} target={openAsTab ? "blank" : undefined} {...others}>{children}</a>
     )
 }
 
