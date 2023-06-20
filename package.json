@@ -1,6 +1,6 @@
 {
   "name": "@dan-jackson/react-component-library",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "React Component Library",
   "main": "dist/bundle.js",
   "module": "dist/bundle.esm.js",
