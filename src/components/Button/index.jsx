@@ -1,6 +1,6 @@
 import React from "react"
 
-import Link from "./../Link"
+import Link from "./../Link/index.jsx"
 
 const Button = ({ to }) => {
     const isLink = to && (to.includes(`http`) || to.startsWith(`#`) || to.startsWith(`mailto`) || to.startsWith(`/`))
