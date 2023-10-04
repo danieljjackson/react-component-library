@@ -1,6 +1,6 @@
 import React from "react"
 
-const Link = ({ to, role, openAsTab = false, children, ...others }) => {
+const Link = ({ to, className, role, openAsTab = false, children, ...others }) => {
     let rel = ""
 
     // Check to see if the link is external
@@ -9,7 +9,7 @@ const Link = ({ to, role, openAsTab = false, children, ...others }) => {
     }
 
     return (
-        <a href={to} target={openAsTab ? "blank" : undefined} {...{ role, rel }} {...others}>{children}</a>
+        <a href={to} className={`${className} || ""}`} target={openAsTab ? "blank" : undefined} {...{ role, rel }} {...others}>{children}</a>
     )
 }
 
