@@ -6,7 +6,7 @@ const Button = ({ to, type = "button", role = "button", openAsTab = false, onCli
     const isLink = to && (to.includes(`http`) || to.startsWith(`#`) || to.startsWith(`mailto`) || to.startsWith(`/`))
 
     const renderAsLink = () =>
-        <Link {...{ to, role, openAsTab }}>{children}</Link>
+        <Link {...{ to, role, openAsTab }} {...others}>{children}</Link>
 
     const renderAsButton = () =>
         <button {...{ type, onClick }} {...others}>{children}</button>
