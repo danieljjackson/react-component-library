@@ -28,9 +28,9 @@ Here is a list of components available within the `react-component-library` pack
 import { Heading } from '@dan-jackson/react-component-library'
 
 const Foo = () => {
-	return (
-		<Heading>Label</Heading>
-	)
+  return (
+    <Heading>Label</Heading>
+  )
 }
 ```
 
@@ -51,9 +51,9 @@ The Heading component is used to render `<h1>` to `<h6>` headings within your ap
 import { Button } from '@dan-jackson/react-component-library'
 
 const Foo = () => {
-	return (
-		<Button>Label</Button>
-	)
+  return (
+    <Button>Label</Button>
+  )
 }
 ```
 
@@ -77,14 +77,14 @@ import { Button } from '@dan-jackson/react-component-library'
 
 const Foo = () => {
 
-	// Function we want to call on the Button click
-	const sayHello = () => {
-		alert("Hello, World")
-	}
+  // Function we want to call on the Button click
+  const sayHello = () => {
+    alert("Hello, World")
+  }
 
-	return (
-		<Button onClick={sayHello}>Label</Button>
-	)
+  return (
+    <Button onClick={sayHello}>Label</Button>
+  )
 }
 ```
 
@@ -98,12 +98,12 @@ import { Button } from '@dan-jackson/react-component-library'
 
 const Foo = () => {
 
-	return (
-		<>
-			<Button to="https://www.example.com">External Link</Button>
-			<Button to="/internal/">Internal Link</Button>
-		</>
-	)
+  return (
+    <>
+      <Button to="https://www.example.com">External Link</Button>
+      <Button to="/internal/">Internal Link</Button>
+    </>
+  )
 }
 ```
 
@@ -120,12 +120,12 @@ This will render as:
 import { Link } from '@dan-jackson/react-component-library'
 
 const Foo = () => {
-	return (
-		<>
-			<Link to="https://www.example.com">External Link</Link>
-			<Link to="/internal/">Internal Link</Link>
-		</>
-	)
+  return (
+    <>
+      <Link to="https://www.example.com">External Link</Link>
+      <Link to="/internal/">Internal Link</Link>
+    </>
+  )
 }
 ```
 
@@ -142,12 +142,12 @@ Should the link need to open a new browser tab/window when clicked, the `openAsT
 import { Link } from '@dan-jackson/react-component-library'
 
 const Foo = () => {
-	return (
-		<>
-			<Link to="https://www.example.com" openAsTab>External Link</Link>
-			<Link to="/internal/" openAsTab>Internal Link</Link>
-		</>
-	)
+  return (
+    <>
+      <Link to="https://www.example.com" openAsTab>External Link</Link>
+      <Link to="/internal/" openAsTab>Internal Link</Link>
+    </>
+  )
 }
 ```
 
