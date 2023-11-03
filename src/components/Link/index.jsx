@@ -9,7 +9,7 @@ const Link = ({ to, className, role, openAsTab = false, children, ...others }) =
     }
 
     return (
-        <a href={to} className={className ? className : ""} target={openAsTab ? "blank" : undefined} {...{ role, rel }} {...others}>{children}</a>
+        <a href={to} className={className} target={openAsTab ? "blank" : undefined} {...{ role, rel }} {...others}>{children}</a>
     )
 }
 

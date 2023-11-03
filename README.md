@@ -22,6 +22,19 @@ import { Button, Link, Heading } from '@dan-jackson/react-component-library'
 ## Components
 Here is a list of components available within the `react-component-library` package and their `props`.
 
+### Adding Classes to Components
+In React, classes are added to components using the `className` prop. This has been added to all components in the `react-component-library`.
+
+```javascript
+<Heading className="font-bold heading-example">Label</Heading>
+```
+
+This will render as a `class` attribute:
+
+```html
+<h1 class="font-bold heading-example">Label</h1>
+```
+
 ### Heading
 
 ```javascript
