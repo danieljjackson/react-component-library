@@ -1,5 +1,9 @@
 # Release Log
 
+**0.2.5 - 3rd November 2023**
++ `@babel/preset-react` devDependency npm package bumped from `7.18.6` to `7.22.15`
++ `rollup-plugin-css-only` devDependency npm package bumped from `4.3.0` to `4.5.0` 
+
 **0.2.4 - 3rd November 2023**
 
 + README file updated with references to adding classes to components.
