@@ -9,7 +9,7 @@ const Button = ({ to, className, type = "button", role = "button", openAsTab = f
         <Link {...{ to, role, className, openAsTab }} {...others}>{children}</Link>
 
     const renderAsButton = () =>
-        <button {...{ type, onClick }} className={className ? className : ""} {...others}>{children}</button>
+        <button {...{ type, onClick }} className={className} {...others}>{children}</button>
 
     return (
         isLink ? renderAsLink() : renderAsButton()
