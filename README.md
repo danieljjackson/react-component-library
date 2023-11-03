@@ -114,7 +114,7 @@ This will render as:
 <a href="/internal/" role="button">Internal Link</a>
 ```
 
-### Link
+### Link
 
 ```javascript
 import { Link } from '@dan-jackson/react-component-library'
