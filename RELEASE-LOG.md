@@ -2,6 +2,8 @@
 
 **0.2.6 - TBC**
 + [Fix] - prevent the `rel` attribute from being rendered in a link if no external URL is used.
++ Added the `style` and `id` props to the `Button`, `Link` and `Heading` components.
++ classNames prop syntax updated to use the spread operator.
 
 **0.2.5 - 3rd November 2023**
 + `@babel/preset-react` devDependency npm package bumped from `7.18.6` to `7.22.15`
