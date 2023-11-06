@@ -1,6 +1,6 @@
 # Release Log
 
-**0.2.6 - TBC**
+**0.2.6 - 6th November 2023**
 + [Fix] - prevent the `rel` attribute from being rendered in a link if no external URL is used.
 + Added the `style` and `id` props to the `Button`, `Link` and `Heading` components.
 + classNames prop syntax updated to use the spread operator.
