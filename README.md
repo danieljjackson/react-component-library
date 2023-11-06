@@ -35,6 +35,20 @@ This will render as a `class` attribute:
 <h1 class="font-bold heading-example">Label</h1>
 ```
 
+### Adding ID attributes to Components
+As with classes, we can apply `id` attributes to components using the `id` prop.
+
+```javascript
+<Heading id="labelOne">Label</Heading>
+```
+
+### Adding the Style attribute to Components
+Although classes are the preferred method to style components, we can also pass values into the `style` prop.
+
+```javascript
+<Heading style={{ border: `1px solid #000`, background: `#fff` }}>Label</Heading>
+```
+
 ### Heading
 
 ```javascript

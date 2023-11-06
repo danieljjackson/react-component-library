@@ -1,10 +1,10 @@
 import React from "react"
 
-const Heading = ({ level = `1`, className, children, ...others }) => {
+const Heading = ({ level = `1`, className, id, style, children, ...others }) => {
     const Tag = `h${level}`
 
     return (
-        <Tag className={className} {...others}>{children}</Tag>
+        <Tag {...{ id, style, className }} {...others}>{children}</Tag>
     )
 }
 
