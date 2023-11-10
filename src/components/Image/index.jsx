@@ -1,5 +1,5 @@
 import React from "react"
-import Link from "../Link/"
+import Link from "../Link/index.jsx"
 
 const Image = ({ src, srcset, alt, className, id, style, height, width, to, openAsTab = false, isLazyLoading = false, ...others }) => {
     const imageProps = {
