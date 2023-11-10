@@ -2,6 +2,7 @@
 
 **0.3.0 - TBC**
 + Image component added allowing images to also be rendered within a link using the Link component.
++ Card component added.
 
 **0.2.6 - 6th November 2023**
 + [Fix] - prevent the `rel` attribute from being rendered in a link if no external URL is used.
@@ -14,7 +15,7 @@
 
 **0.2.4 - 3rd November 2023**
 + README file updated with references to adding classes to components.
-+ [Fix] - the class attribute does not render in the component if no class value(s) is/are passed to the component
++ [Fix] - the class attribute does not render in the component if no class value(s) is/are passed to the component.
 
 **0.2.3 - 3rd November 2023**
 + README file updates with guides to using the components and props.
