@@ -1,10 +1,11 @@
 import React from "react"
+import Link from "../Link/"
 
-const Image = ({ src, srcset, alt, className, id, style, height, width, to, isLazyLoading = false }) => {
+const Image = ({ src, srcset, alt, className, id, style, height, width, to, openAsTab = false, isLazyLoading = false }) => {
     return to ? (
-        <a href={to}>
+        <Link {...{ to, openAsTab }}>
             <img {...{ src, srcset, alt, className, id, style, height, width }} loading={isLazyLoading ? "lazy" : undefined} />
-        </a>
+        </Link>
     ) : (
         <img {...{ src, srcset, alt, className, id, style, height, width }} loading={isLazyLoading ? "lazy" : undefined} />
     )
