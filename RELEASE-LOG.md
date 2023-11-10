@@ -1,5 +1,8 @@
 # Release Log
 
+**0.3.0 - TBC**
++ Image component added allowing images to also be rendered within a link using the Link component.
+
 **0.2.6 - 6th November 2023**
 + [Fix] - prevent the `rel` attribute from being rendered in a link if no external URL is used.
 + Added the `style` and `id` props to the `Button`, `Link` and `Heading` components.
