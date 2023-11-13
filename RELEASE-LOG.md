@@ -1,5 +1,8 @@
 # Release Log
 
+**0.3.2 - 13th November 2023**
++ [Fix] - remove props from the spread operator to fix the issue with prop values not being passed into the `styled-components` to apply CSS styling.
+
 **0.3.1 - 13th November 2023**
 + [Fix] - correct the `text-alignment` typo with `text-align` for the CSS within the `Button` component.
 + [Fix] - apply fix to ensure values are passed correctly from props that are passed into the `Button` component.
