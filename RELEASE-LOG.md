@@ -1,5 +1,9 @@
 # Release Log
 
+**0.3.1 - 13th November 2023**
++ [Fix] - correct the `text-alignment` typo with `text-align` for the CSS within the `Button` component.
++ [Fix] - apply fix to ensure values are passed correctly from props that are passed into the `Button` component.
+
 **0.3.0 - 13th November 2023**
 + Image component added allowing images to also be rendered within a link using the Link component.
 + Card component added.
