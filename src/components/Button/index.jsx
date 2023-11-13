@@ -31,12 +31,12 @@ const Button = ({ to, className, id, style, type = "button", role = "button", op
 
     const renderAsLink = () =>
         <div>
-            <LinkStyling {...{ to, role, className, id, style, color, colorHover, backgroundColor, backgroundColorHover, padding, openAsTab }} {...others}>{children}</LinkStyling>
+            <LinkStyling {...{ to, role, className, id, style, openAsTab }} colorHover={colorHover} backgroundColor={backgroundColor} backgroundColorHover={backgroundColorHover} padding={padding} {...others}>{children}</LinkStyling>
         </div>
 
     const renderAsButton = () =>
         <div>
-            <ButtonStyling {...{ type, id, style, className, color, colorHover, backgroundColor, backgroundColorHover, padding, onClick }} {...others}>{children}</ButtonStyling>
+            <ButtonStyling {...{ type, id, style, className, onClick }} colorHover={colorHover} backgroundColor={backgroundColor} backgroundColorHover={backgroundColorHover} padding={padding} {...others}>{children}</ButtonStyling>
         </div>
 
     return (
