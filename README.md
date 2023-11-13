@@ -1,7 +1,6 @@
 # React Component Library
 
 ## Install
-
 ```shell
 $ npm install @dan-jackson/react-component-library
 ```
@@ -50,7 +49,6 @@ Although classes are the preferred method to style components, we can also pass 
 ```
 
 ### Heading
-
 ```javascript
 import { Heading } from '@dan-jackson/react-component-library'
 
@@ -72,8 +70,34 @@ The Heading component is used to render `<h1>` to `<h6>` headings within your ap
 <Heading level={6}>H1</Heading>
 ```
 
-### Button
+### Image
+Images can be added to our application using the `<Image />` component. It is recommended that all images have the `alt` attribute and use the `height` and `width` props.
 
+```javascript
+import { Image } from '@dan-jackson/react-component-library'
+
+const Foo = () => {
+  return (
+    <Image src="images/example.jpg" height={100} width={100} alt="This is an example of how to add the alt text." />
+  )
+}
+```
+
+As with the other components, the `className`, `style`, and `id` props can be used. The `<Image />` component also allows the `srcset` prop/attribute to be used.
+
+To `lazy load` and image, which is recommended for those images that are below the fold, use the `isLazyLoading` prop.
+
+```javascript
+<Image src="images/example.jpg" height={100} width={100} alt="This is an example of how to add the alt text." isLazyLoading />
+```
+
+Should the image need to open a link/URL when clicked, the `to` prop can be used allowing a link to be rendered around the image. The `openAsTab` prop is optionally applied to open the link in a new browser window/tab.
+
+```javascript
+<Image to="https://www.example.com" src="images/example.jpg" height={100} width={100} alt="This is an example of how to add the alt text." isLazyLoading openAsTab />
+```
+
+### Button
 ```javascript
 import { Button } from '@dan-jackson/react-component-library'
 
@@ -141,8 +165,22 @@ This will render as:
 <a href="/internal/" role="button">Internal Link</a>
 ```
 
-### Link
+#### Adding Styles to the Button
+Styling is provided by the `styled-components` library. We can add the following styling to the `Button` component:
 
+```javascript
+{/* Set the text and/or hover color */}
+<Button color="#eee">Click here</Button>
+<Button colorHover="#000">Click here</Button>
+{/* Set the background and/or hover color */}
+<Button backgroundColor="#000">Click here</Button>
+<Button backgroundColorHover="#eee">Click here</Button>
+
+{/* Set the padding, this will default to 1rem if no value is passed */}
+<Button padding="2rem">Click here</Button>
+```
+
+### Link
 ```javascript
 import { Link } from '@dan-jackson/react-component-library'
 
