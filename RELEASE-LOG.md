@@ -4,6 +4,7 @@
 + Image component added allowing images to also be rendered within a link using the Link component.
 + Card component added.
 + `styled-components` package version `6.1.1` installed as a `devDependency`.
++ Default CSS styling added to the `Button` component with the option to pass `backgroundColor` and `color` options as props. Hover state styling props also added with `backgroundColorHover` and `colorHover`.
 
 **0.2.6 - 6th November 2023**
 + [Fix] - prevent the `rel` attribute from being rendered in a link if no external URL is used.
