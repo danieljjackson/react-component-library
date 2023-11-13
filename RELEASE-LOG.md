@@ -1,6 +1,6 @@
 # Release Log
 
-**0.3.0 - TBC**
+**0.3.0 - 13th November 2023**
 + Image component added allowing images to also be rendered within a link using the Link component.
 + Card component added.
 + `styled-components` package version `6.1.1` installed as a `devDependency`.
