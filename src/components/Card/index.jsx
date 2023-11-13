@@ -1,9 +1,9 @@
 import React from "react"
 import { styled } from "styled-components"
 
-const Card = () => {
+const Card = ({ children }) => {
     return (
-        <div>Card</div>
+        <div>{children}</div>
     )
 }
 
