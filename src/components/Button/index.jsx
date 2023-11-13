@@ -7,7 +7,7 @@ const Button = ({ to, className, id, style, type = "button", role = "button", op
     const sharedStyles = `
         display: inline-block;
         text-decoration: none;
-        text-alignment: center;
+        text-align: center;
         cursor: pointer;
         color: ${props => props.color};
         background-color: ${props => props.backgroundColor};
