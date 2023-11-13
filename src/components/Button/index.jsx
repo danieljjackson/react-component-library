@@ -9,13 +9,13 @@ const Button = ({ to, className, id, style, type = "button", role = "button", op
         text-decoration: none;
         text-align: center;
         cursor: pointer;
-        color: ${props => props.color};
-        background-color: ${props => props.backgroundColor};
-        padding: ${props => props.padding || `1rem`};
+        color: ${(props) => props.color};
+        background-color: ${(props) => props.backgroundColor};
+        padding: ${(props) => props.padding || "1rem"};
 
         :hover {
-            color: ${props => props.colorHover};
-            background-color: ${props => props.backgroundColorHover};
+            color: ${(props) => props.colorHover};
+            background-color: ${(props) => props.backgroundColorHover};
         }
     `
 
