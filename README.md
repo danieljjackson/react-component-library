@@ -34,7 +34,7 @@ This will render as a `class` attribute:
 <h1 class="font-bold heading-example">Label</h1>
 ```
 
-### Adding ID attributes to Components
+### Adding ID attributes to Components
 As with classes, we can apply `id` attributes to components using the `id` prop.
 
 ```javascript
